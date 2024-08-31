@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
+import Nav from "@/components/nav";
+
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto_mono.className}>{children}</body>
+      <body className={roboto_mono.className}>
+        <Nav />
+        <main className="mt-20">{children}</main>
+      </body>
     </html>
   );
 }
