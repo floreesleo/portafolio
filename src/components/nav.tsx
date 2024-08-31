@@ -9,7 +9,7 @@ export default function Nav() {
 
   // Mapeo de rutas a nombres específicos
   const pageTitle: { [key: string]: string } = {
-    "/": ".is()",
+    "/": ".dev()",
     "/about": ".about()",
     // Agrega más rutas aquí si es necesario
   };
@@ -18,7 +18,7 @@ export default function Nav() {
 
   return (
     <nav className="fixed left-0 top-0 z-50 flex h-fit w-full items-center py-2 backdrop:opacity-15">
-      <div className="animated-fade-down animate-once animate-duration-[1000ms] container mx-auto flex items-center justify-between p-4 font-medium">
+      <div className="container mx-auto flex animate-fade-down items-center justify-between p-4 font-medium animate-duration-1000 animate-once">
         <h2 className="text-2xl font-black">{title}</h2>
 
         <div className="flex flex-row space-x-4">
@@ -34,7 +34,7 @@ export default function Nav() {
           >
             .about()
           </Link>
-          <Link href={"#"}>.email()</Link>
+          <Link href={"mailto:florees.leo@gmail.com"}>.email()</Link>
         </div>
       </div>
     </nav>
