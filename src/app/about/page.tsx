@@ -1,5 +1,9 @@
-import React from "react";
+import { MyDescription } from "@/components/single-use";
 
 export default function AboutPage() {
-  return <div>AboutPage</div>;
+  return (
+    <div className="flex flex-col px-48 py-28">
+      <MyDescription />
+    </div>
+  );
 }
