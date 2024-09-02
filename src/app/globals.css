@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Estilo de selección personalizado */
+::selection {
+  background-color: #7c3aed; /* Color de fondo (violet-800 de Tailwind) */
+  color: #ffffff; /* Color del texto (blanco) */
+}
+
+/* Para navegadores basados en WebKit */
+::-moz-selection {
+  background-color: #7c3aed; /* Color de fondo (violet-800 de Tailwind) */
+  color: #ffffff; /* Color del texto (blanco) */
+}
