@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <div className="select-none">
+    <div>
       {/* Titulo */}
-      <h1 className="animate-flip-down text-5xl font-black animate-delay-[1500ms] animate-duration-[1200ms] animate-once">
+      <h1 className="animate-flip-down text-6xl font-black animate-delay-[1500ms] animate-duration-[1200ms] animate-once">
         azael<span className="text-violet-800">.dev()</span>
       </h1>
 
@@ -12,7 +12,7 @@ export default function Header() {
       </h4>
 
       {/* breve descripcion */}
-      <p className="mt-4 animate-fade-right text-xl font-light animate-delay-[2400ms] animate-duration-1000 animate-once">
+      <p className="mt-4 animate-fade-right text-xl text-neutral-500 animate-delay-[2400ms] animate-duration-1000 animate-once">
         Creative frontend developer
       </p>
     </div>

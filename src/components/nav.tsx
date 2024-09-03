@@ -18,9 +18,11 @@ export default function Nav() {
   const title = pageTitle[pathName] || pathName;
 
   return (
-    <nav className="fixed left-0 top-0 z-50 flex h-fit w-full items-center py-2 backdrop:opacity-15">
-      <div className="container mx-auto flex animate-fade-down items-center justify-between p-4 font-medium animate-duration-1000 animate-once">
-        <h2 className="text-2xl font-black">{title}</h2>
+    <nav className="bg-custom-dark shadow-custom-dark fixed left-0 top-0 z-50 flex h-fit w-full items-center py-2 shadow-xl backdrop:opacity-15">
+      <div className="container mx-auto flex animate-fade-down items-center justify-between p-0.5 animate-duration-1000 animate-once">
+        <h2 className="select-none text-lg font-medium text-violet-800">
+          {title}
+        </h2>
 
         <div className="flex flex-row items-center space-x-4">
           <Link

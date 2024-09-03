@@ -4,8 +4,8 @@ import { Github, Linkedin, Download } from "lucide-react";
 export default function MyDescription() {
   return (
     <div className="flex flex-col items-start space-y-6 text-lg">
-      <h1 className="animate-flip-down select-none text-5xl font-black animate-delay-[1500ms] animate-duration-[1200ms] animate-once">
-        .about(<span className="text-violet-800">azael</span>)
+      <h1 className="animate-flip-down text-6xl font-black animate-delay-[1500ms] animate-duration-[1200ms] animate-once">
+        about(<span className="text-violet-800">azael</span>)
       </h1>
 
       {/* Este div solo se usa para dividir los elementos verticalmente y darle una animación en general al contenedor completo */}
@@ -27,11 +27,11 @@ export default function MyDescription() {
               size={23}
             />
           </Link>
-          <span className="select-none">Download my</span>
+          <span>Download my</span>
           <a
             href="/leonardo.azael.cv.pdf"
             download="leonardo.azael.cv.pdf"
-            className="flex cursor-pointer select-none items-center rounded-3xl bg-violet-800 px-3 py-1 text-black transition-colors duration-500 hover:bg-white"
+            className="flex cursor-pointer select-none items-center rounded-3xl bg-violet-800 px-5 py-0.5 text-black transition-colors duration-500 hover:bg-white"
           >
             {/* revisar como hacer para que se descargue el pdf de mi cv */}
             CV <Download size={20} className="ml-2" strokeWidth={2} />
