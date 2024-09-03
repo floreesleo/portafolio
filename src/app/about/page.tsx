@@ -1,10 +1,10 @@
 import {
   MyDescription,
-  MainSkills,
   Experience,
-  Languages,
   Hobbies,
-} from "@/components/single-use";
+  Languages,
+  MainSkills,
+} from "@/components/about";
 
 export default function AboutPage() {
   return (

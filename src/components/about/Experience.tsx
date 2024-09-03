@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Experience() {
   return (
     <div className="flex flex-col space-y-4">

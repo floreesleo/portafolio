@@ -1,4 +1,4 @@
-import { Header, MadeWith } from "@/components/single-use";
+import { Header, MadeWith } from "@/components/home";
 
 export default function Home() {
   return (

@@ -4,7 +4,7 @@ export default function MadeWith() {
   return (
     <div className="flex flex-col space-y-4">
       <h2 className="text-start text-xl text-neutral-700">{"// Made with"}</h2>
-      <div className="grid grid-cols-4 gap-4 text-violet-800">
+      <div className="grid select-none grid-cols-4 gap-4 text-violet-800">
         <span>{"(){</>}"}</span>
         <span>{"~"}</span>
         <span>
