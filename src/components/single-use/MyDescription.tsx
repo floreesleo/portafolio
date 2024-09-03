@@ -39,22 +39,20 @@ export default function MyDescription() {
         </div>
 
         {/* Descripción */}
-        <div className="text-violet-800">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aut,
-            harum quos, eaque temporibus repudiandae, officiis porro velit
-            possimus minima praesentium totam sint blanditiis laboriosam earum
-            natus aliquid id vitae.
+        <div>
+          <p className="text-xl text-violet-800">
+            Frontend developer heavily influenced by art, interactions, and UX.
+            Adiccted to music, visual arts, and games.
           </p>
-          <p>From México.</p>
+          <p className="text-neutral-500">From México. 🇲🇽</p>
         </div>
 
-        <div>
+        <div className="text-neutral-700">
           {/* Sexo */}
-          <p className="text-neutral-700">{"// he/him"}</p>
+          <p>{"// he/him"}</p>
 
           {/* Puesto */}
-          <p className="text-neutral-700">{"// Junior Frontend Developer @"}</p>
+          <p>{"// Junior Frontend Developer @"}</p>
         </div>
       </div>
     </div>

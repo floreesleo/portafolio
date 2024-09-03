@@ -1,9 +1,10 @@
-import { Header } from "@/components/single-use";
+import { Header, MadeWith } from "@/components/single-use";
 
 export default function Home() {
   return (
-    <div className="p-48">
+    <div className="space-y-10 p-48">
       <Header />
+      <MadeWith />
     </div>
   );
 }

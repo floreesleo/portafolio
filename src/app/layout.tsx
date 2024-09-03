@@ -3,6 +3,7 @@ import { Roboto_Mono } from "next/font/google";
 import "../styles/globals.css";
 
 import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={roboto_mono.className}>
         <Nav />
         <main className="mt-20">{children}</main>
+        <Footer />
       </body>
     </html>
   );
