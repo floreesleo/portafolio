@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import "../styles/globals.css";
 
-import { Nav, Footer } from "../components";
+import { Nav, Footer } from "@/components/nav";
 
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
