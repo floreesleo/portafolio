@@ -8,7 +8,7 @@ import {
 
 export default function AboutPage() {
   return (
-    <div className="flex flex-col space-y-10 px-48 py-28">
+    <div className="flex flex-col space-y-10 py-28 pl-48">
       <MyDescription />
       <div className="animate-fade-right space-y-10 animate-delay-[2400ms] animate-duration-1000 animate-once">
         <MainSkills />

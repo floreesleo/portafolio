@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto_mono.className}>
         <Nav />
-        <main className="mt-20">{children}</main>
+        <main className="mt-20 pr-10">{children}</main>
         <Footer />
       </body>
     </html>
