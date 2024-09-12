@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --text: #fff;
+  --brand: #7c3aed;
+  --background: rgb(14, 18, 18);
+}
+
 body {
-  background: rgb(14, 18, 18);
-  color: #fff;
+  background: var(--background);
+  color: var(--text);
 }
 
 @layer utilities {
@@ -15,12 +21,12 @@ body {
 
 /* Estilo de selección personalizado */
 ::selection {
-  background-color: #7c3aed; /* Color de fondo (violet-800 de Tailwind) */
-  color: #ffffff; /* Color del texto (blanco) */
+  background: var(--brand); /* Color de fondo (violet-800 de Tailwind) */
+  color: var(--background); /* Color del texto (blanco) */
 }
 
 /* Para navegadores basados en WebKit */
 ::-moz-selection {
-  background-color: #7c3aed; /* Color de fondo (violet-800 de Tailwind) */
-  color: #ffffff; /* Color del texto (blanco) */
+  background: var(--brand); /* Color de fondo (violet-800 de Tailwind) */
+  color: var(--background); /* Color del texto (blanco) */
 }
