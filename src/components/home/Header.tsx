@@ -1,20 +1,26 @@
+import { Reveal } from "@/components/motion";
+
 export default function Header() {
   return (
     <div>
-      {/* Titulo */}
-      <h1 className="animate-flip-down text-6xl font-black animate-delay-[1500ms] animate-duration-[1200ms] animate-once">
-        azael<span className="text-violet-800">.dev()</span>
-      </h1>
+      <Reveal>
+        {/* Titulo */}
+        <h1 className="text-7xl font-black">
+          azael<span className="text-violet-800">.dev()</span>
+        </h1>
+      </Reveal>
 
-      {/* Nombre */}
-      <h4 className="mt-2 animate-fade-right text-2xl font-medium text-violet-800 animate-delay-[2400ms] animate-duration-1000 animate-once">
-        Leonardo Azael
-      </h4>
+      <Reveal>
+        {/* Nombre */}
+        <h4 className="text-3xl font-medium text-violet-800">
+          Leonardo Azael Hernández Flores
+        </h4>
+      </Reveal>
 
-      {/* breve descripcion */}
-      <p className="mt-4 animate-fade-right text-xl text-neutral-500 animate-delay-[2400ms] animate-duration-1000 animate-once">
-        Creative frontend developer
-      </p>
+      <Reveal>
+        {/* breve descripcion */}
+        <p className="text-xl text-neutral-500">Creative frontend developer</p>
+      </Reveal>
     </div>
   );
 }
