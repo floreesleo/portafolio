@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Github, Linkedin } from "lucide-react";
@@ -18,9 +17,9 @@ export default function Nav() {
   const title = pageTitle[pathName] || pathName;
 
   return (
-    <nav className="bg-custom-dark shadow-custom-dark fixed left-0 top-0 z-50 flex h-fit w-full items-center py-2 shadow-xl backdrop:opacity-15">
+    <nav className="fixed left-0 top-0 z-50 flex h-fit w-full items-center bg-custom-dark py-2 shadow-xl shadow-custom-dark backdrop:opacity-15">
       <div className="container mx-auto flex animate-fade-down items-center justify-between p-0.5 animate-duration-1000 animate-once">
-        <h2 className="select-none text-lg font-medium text-violet-800">
+        <h2 className="select-none text-xl font-semibold text-violet-800">
           {title}
         </h2>
 
@@ -51,19 +50,20 @@ export default function Nav() {
           >
             .email()
           </Link>
-          <Link href="https://github.com/floreesleo" target="_blank">
-            <Github
+
+          <Link
+            href="https://www.linkedin.com/in/flores-leonardo"
+            target="_blank"
+          >
+            <Linkedin
               className="text-violet-800 transition-colors duration-500 hover:text-white"
               size={23}
               absoluteStrokeWidth={false}
               strokeWidth={2}
             />
           </Link>
-          <Link
-            href="https://www.linkedin.com/in/flores-leonardo"
-            target="_blank"
-          >
-            <Linkedin
+          <Link href="https://github.com/floreesleo" target="_blank">
+            <Github
               className="text-violet-800 transition-colors duration-500 hover:text-white"
               size={23}
               absoluteStrokeWidth={false}

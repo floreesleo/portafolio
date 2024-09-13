@@ -17,17 +17,17 @@ export default function MyDescription() {
 
         <Reveal>
           <div className="flex flex-row items-center space-x-3">
-            <Link href="https://github.com/floreesleo" target="_blank">
-              <Github
-                className="text-violet-800 transition-colors duration-500 hover:text-white"
-                size={23}
-              />
-            </Link>
             <Link
               href="https://www.linkedin.com/in/flores-leonardo"
               target="_blank"
             >
               <Linkedin
+                className="text-violet-800 transition-colors duration-500 hover:text-white"
+                size={23}
+              />
+            </Link>
+            <Link href="https://github.com/floreesleo" target="_blank">
+              <Github
                 className="text-violet-800 transition-colors duration-500 hover:text-white"
                 size={23}
               />
