@@ -14,7 +14,7 @@ export default function Nav() {
     // Agrega más rutas aquí si es necesario
   };
 
-  const title = pageTitle[pathName] || pathName;
+  const title = pageTitle[pathName] || ".err(404)";
 
   return (
     <nav className="fixed left-0 top-0 z-50 flex h-fit w-full items-center bg-custom-dark py-2 shadow-xl shadow-custom-dark backdrop:opacity-15">

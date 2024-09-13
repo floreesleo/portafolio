@@ -20,6 +20,13 @@ export default function Home() {
 
       <ColArqScene />
       <EarlyDays />
+
+      <div className="flex h-screen items-center">
+        <span className="text-6xl font-black text-violet-800">
+          {"</wrapper>"}
+        </span>
+      </div>
+
       <MadeWith />
     </div>
   );

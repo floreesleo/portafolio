@@ -4,7 +4,7 @@ import { Reveal } from "@/components/motion";
 
 export default function MyDescription() {
   return (
-    <div className="text-lg flex flex-col items-start space-y-6">
+    <div className="text-lg flex h-screen flex-col items-start space-y-6">
       <Reveal>
         <h1 className="text-6xl font-black">
           about(<span className="text-violet-800">azael</span>)
