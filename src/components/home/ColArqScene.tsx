@@ -17,7 +17,7 @@ export default function CAScene() {
           <h4 className="text-4xl font-bold">
             In my university internship, I was the{" "}
             <span className="text-violet-800">Head of the development</span> @
-            Colegio de {"Arquitectos'"} web application.
+            ColArq web.
           </h4>
         </Reveal>
         <Reveal>

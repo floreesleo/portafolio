@@ -7,7 +7,7 @@ import { Nav, Footer } from "@/components/nav";
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "azael.dev",
+  title: "flores.dev",
   description: "Portafolio de desarrollador frontend desarrollado con Nextjs",
 };
 

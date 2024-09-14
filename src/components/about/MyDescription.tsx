@@ -7,7 +7,7 @@ export default function MyDescription() {
     <div className="text-lg flex h-screen flex-col items-start space-y-6">
       <Reveal>
         <h1 className="text-6xl font-black">
-          about(<span className="text-violet-800">azael</span>)
+          about(<span className="text-violet-800">flores</span>)
         </h1>
       </Reveal>
 

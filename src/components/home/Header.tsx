@@ -6,7 +6,7 @@ export default function Header() {
       <Reveal>
         {/* Titulo */}
         <h1 className="text-7xl font-black">
-          azael<span className="text-violet-800">.dev()</span>
+          flores<span className="text-violet-800">.dev()</span>
         </h1>
       </Reveal>
 

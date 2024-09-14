@@ -18,8 +18,7 @@ export default function MadeWith() {
         </ul>
 
         <ul>
-          <li>+62 cups of coffee</li>
-          <li>Endless references</li>
+          <li>+3 playlists</li>
         </ul>
 
         <ul className="space-y-2">
