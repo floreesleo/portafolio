@@ -69,14 +69,14 @@ export default function EarlyDays() {
         </Reveal>
       </div>
 
-      <div className="h-screen">
+      {/* <div className="h-screen">
         <Reveal>
           <h4 className="text-5xl font-bold">
             To create something{" "}
             <span className="text-violet-800">like this...</span>
           </h4>
         </Reveal>
-      </div>
+      </div> */}
     </div>
   );
 }

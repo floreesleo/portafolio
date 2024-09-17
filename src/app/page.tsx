@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
 
       {/* myCV - WorkShowcase */}
-      <div className="flex h-screen items-center">
+      <div className="flex h-screen select-none items-center">
         <Reveal>
           <div>
             <h3 className="text-6xl font-black">

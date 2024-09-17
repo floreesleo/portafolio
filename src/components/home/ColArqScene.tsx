@@ -31,16 +31,16 @@ export default function CAScene() {
       <div className="h-screen items-center space-y-2">
         <Reveal>
           <p className="text-2xl">
-            Throughout these days I delivered hundred of
+            I develope tools for managing private documents,
           </p>
         </Reveal>
         <Reveal>
           <h4 className="text-5xl font-bold text-violet-800">
-            tools, modules, integrations, and custom projects
+            Enabling secure access and efficient workflows
           </h4>
         </Reveal>
         <Reveal>
-          <p className="text-2xl">for online stores and service providers.</p>
+          <p className="text-2xl">through custom modules and integrations.</p>
         </Reveal>
       </div>
     </div>
