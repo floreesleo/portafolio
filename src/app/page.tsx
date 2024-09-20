@@ -3,17 +3,19 @@ import { Reveal } from "@/components/motion";
 
 export default function Home() {
   return (
-    <div className="flex flex-col space-y-10 py-28 pl-48">
+    <div>
       <Header />
 
       {/* myCV - WorkShowcase */}
-      <div className="flex h-screen select-none items-center">
+      <div className="flex h-screen items-center">
         <Reveal>
           <div>
-            <h3 className="text-6xl font-black">
+            <h3 className="text-3xl font-black lg:text-6xl">
               myCV(<span className="text-violet-800">/^.*$/gi</span>)
             </h3>
-            <p className="text-xl text-neutral-500">{"<WorkShowcase>"}</p>
+            <p className="text-base text-neutral-500 lg:text-xl">
+              {"<WorkShowcase>"}
+            </p>
           </div>
         </Reveal>
       </div>
@@ -22,7 +24,7 @@ export default function Home() {
       <EarlyDays />
 
       <div className="flex h-screen items-center">
-        <span className="text-6xl font-black text-violet-800">
+        <span className="text-4xl font-black text-violet-800 lg:text-6xl">
           {"</wrapper>"}
         </span>
       </div>
