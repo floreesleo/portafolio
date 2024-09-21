@@ -6,14 +6,15 @@ export default function Languages() {
       <Reveal>
         <h2 className="text-start text-2xl font-semibold">Languages</h2>
       </Reveal>
-      <div className="grid grid-cols-4 gap-4">
+
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4">
         <div className="flex flex-col">
           <Reveal>
             <h4 className="text-neutral-700">{"// fluent"}</h4>
           </Reveal>
           <ul className="flex flex-row space-x-2">
             <Reveal>
-              <li className="italic text-violet-800">es-ES</li>
+              <li className="mr-1 italic text-violet-800">es-ES</li>
             </Reveal>
             <Reveal>
               <li className="text-neutral-500">Español</li>
@@ -27,7 +28,7 @@ export default function Languages() {
           </Reveal>
           <ul className="flex flex-row space-x-2">
             <Reveal>
-              <li className="italic text-violet-800">en-US</li>
+              <li className="mr-1 italic text-violet-800">en-US</li>
             </Reveal>
             <Reveal>
               <li className="text-neutral-500">English</li>
@@ -42,7 +43,7 @@ export default function Languages() {
 
           <ul className="flex flex-row space-x-2">
             <Reveal>
-              <li className="italic text-violet-800">pt-BR</li>
+              <li className="mr-1 italic text-violet-800">pt-BR</li>
             </Reveal>
             <Reveal>
               <li className="text-neutral-500">Português</li>

@@ -6,7 +6,7 @@ export default function Hobbies() {
       <Reveal>
         <h2 className="text-start text-2xl font-semibold">Also busy with</h2>
       </Reveal>
-      <div className="grid grid-cols-4 gap-4 text-neutral-500">
+      <div className="grid grid-cols-1 gap-4 text-neutral-500 lg:grid-cols-4">
         <Reveal>
           <span>Pet my dogs</span>
         </Reveal>
