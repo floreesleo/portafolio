@@ -8,7 +8,7 @@ export default function Experience() {
       </Reveal>
 
       {/* cambiar el valor del grid-col-4 para que se adapten bien los textos de cada ul */}
-      <div className="grid grid-cols-3 gap-6 text-neutral-500">
+      <div className="grid grid-cols-1 gap-6 text-neutral-500 lg:grid-cols-3">
         <ul className="text-neutral-500">
           <Reveal>
             <li className="text-lg font-semibold text-violet-800">

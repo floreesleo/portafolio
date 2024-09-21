@@ -8,7 +8,7 @@ import {
 
 export default function AboutPage() {
   return (
-    <div className="flex flex-col space-y-10 py-28 pl-48">
+    <div>
       <MyDescription />
       <div className="space-y-10">
         <MainSkills />
