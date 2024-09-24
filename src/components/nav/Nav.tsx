@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Github, Linkedin } from "lucide-react";
+import { ButtonNav } from "@/components/widgets";
 
 export default function Nav() {
   const pathName = usePathname();
@@ -22,6 +23,8 @@ export default function Nav() {
         <h2 className="select-none text-xl font-semibold text-violet-800">
           {title}
         </h2>
+
+        <ButtonNav />
 
         <div className="hidden flex-row items-center space-x-4 md:flex">
           <Link
