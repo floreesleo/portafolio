@@ -3,19 +3,11 @@ import { Music } from "lucide-react";
 export default function MadeWith() {
   return (
     <div className="flex flex-col space-y-4">
-      <h2 className="text-start text-base text-neutral-700 lg:text-xl">
+      <h2 className="text-start text-base text-neutral-700 md:text-xl">
         {"// Made with"}
       </h2>
 
-      {/* <div className="grid select-none grid-cols-4 gap-4 text-violet-800">
-        <span>{"(){</>}"}</span>
-        <span>{"~"}</span>
-        <span>
-          <Music strokeWidth={2} size={17} />
-        </span>
-      </div> */}
-
-      <div className="grid grid-cols-1 gap-10 text-violet-800">
+      <div className="grid grid-cols-1 gap-10 text-violet-800 md:grid-cols-3">
         <div className="space-y-5">
           <span>{"(){</>}"}</span>
 

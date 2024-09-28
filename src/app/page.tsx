@@ -10,10 +10,10 @@ export default function Home() {
       <div className="flex h-screen items-center">
         <Reveal>
           <div>
-            <h3 className="text-3xl font-black lg:text-6xl">
+            <h3 className="text-3xl font-black md:text-5xl lg:text-6xl">
               myCV(<span className="text-violet-800">/^.*$/gi</span>)
             </h3>
-            <p className="text-base text-neutral-500 lg:text-xl">
+            <p className="text-base text-neutral-500 md:text-xl">
               {"<WorkShowcase>"}
             </p>
           </div>
@@ -24,7 +24,7 @@ export default function Home() {
       <EarlyDays />
 
       <div className="flex h-screen items-center">
-        <span className="text-4xl font-black text-violet-800 lg:text-6xl">
+        <span className="text-4xl font-black text-violet-800 md:text-5xl lg:text-6xl">
           {"</wrapper>"}
         </span>
       </div>
