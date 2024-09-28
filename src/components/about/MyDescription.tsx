@@ -6,7 +6,7 @@ export default function MyDescription() {
   return (
     <div className="flex h-screen flex-col justify-center space-y-6 lg:items-start">
       <Reveal>
-        <h1 className="text-3xl font-black lg:text-6xl">
+        <h1 className="text-3xl font-black md:text-5xl lg:text-6xl">
           about(<span className="text-violet-800">flores</span>)
         </h1>
       </Reveal>
@@ -15,7 +15,7 @@ export default function MyDescription() {
       <div className="space-y-6">
         {/* Enlaces a mis redes */}
 
-        <div className="flex flex-col items-start space-y-2 lg:flex-row lg:space-x-2">
+        <div className="grid grid-cols-1 space-y-2 md:flex md:flex-row md:items-center md:space-x-2 md:space-y-0">
           <Reveal>
             <div className="flex flex-row items-center space-x-3">
               <Link
@@ -36,7 +36,7 @@ export default function MyDescription() {
             </div>
           </Reveal>
           <Reveal>
-            <div className="flex flex-row items-center space-x-2">
+            <div className="flex flex-row items-center justify-center space-x-2">
               <span>Download my</span>
               <a
                 href="/leonardo.azael.cv.pdf"
@@ -53,18 +53,18 @@ export default function MyDescription() {
         {/* Descripción */}
         <div>
           <Reveal>
-            <p className="pr-6 text-base text-violet-800 lg:pr-0 lg:text-xl">
+            <p className="pr-6 text-base text-violet-800 md:text-xl lg:pr-0">
               Frontend developer heavily influenced by art, interactions, and
               UX. Adiccted to music, visual arts, and games.
             </p>
           </Reveal>
           <Reveal>
-            <p className="text-sm text-neutral-500 lg:text-base">
+            <p className="text-sm text-neutral-500 md:text-base">
               From México. 🇲🇽
             </p>
           </Reveal>
         </div>
-        <div className="text-sm text-neutral-700 lg:text-base">
+        <div className="text-sm text-neutral-700 md:text-base">
           <Reveal>
             {/* Sexo */}
             <p>{"// he/him"}</p>
