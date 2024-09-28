@@ -19,7 +19,7 @@ export default function Nav() {
 
   return (
     <nav className="fixed left-0 top-0 z-50 flex h-fit w-full items-center bg-custom-dark py-2 shadow-xl shadow-custom-dark">
-      <div className="container mx-auto flex animate-fade-down items-center justify-between px-4 animate-duration-1000 animate-once md:p-0.5">
+      <div className="container mx-auto flex animate-fade-down items-center justify-between px-4 animate-duration-1000 animate-once">
         <h2 className="select-none text-xl font-semibold text-violet-800">
           {title}
         </h2>
