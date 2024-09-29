@@ -3,7 +3,7 @@ import { Reveal } from "@/components/motion";
 export default function EarlyDays() {
   return (
     <div className="flex flex-col items-start justify-center space-y-8">
-      <div className="flex h-screen items-center">
+      <div className="flex h-[70vh] items-center lg:h-screen">
         <Reveal>
           <div className="space-y-1">
             <h3 className="text-2xl font-bold md:text-4xl lg:text-5xl">
@@ -17,7 +17,7 @@ export default function EarlyDays() {
         </Reveal>
       </div>
 
-      <div className="flex h-screen flex-col items-start pr-2 lg:pr-32">
+      <div className="flex h-[50vh] flex-col items-start pr-2 lg:h-screen lg:pr-32">
         <Reveal>
           <p className="text-base text-neutral-400 md:text-xl">
             Before programming and design.
@@ -33,7 +33,7 @@ export default function EarlyDays() {
         </Reveal>
       </div>
 
-      <div className="h-screen items-center space-y-2">
+      <div className="h-[70vh] items-center space-y-2 lg:h-screen">
         <Reveal>
           <h4 className="text-2xl font-bold md:text-3xl lg:text-5xl">
             Since my firsts years,{" "}
@@ -52,7 +52,7 @@ export default function EarlyDays() {
         </Reveal>
       </div>
 
-      <div className="h-screen items-center space-y-2 lg:space-y-0">
+      <div className="h-[50vh] items-center space-y-2 lg:h-screen lg:space-y-0">
         <Reveal>
           <p className="text-base text-neutral-300 md:text-xl">
             This love fot detail and creativity led me, eventually,

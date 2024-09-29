@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
 
       {/* myCV - WorkShowcase */}
-      <div className="flex h-screen items-center">
+      <div className="flex h-[60vh] items-center lg:h-screen">
         <Reveal>
           <div>
             <h3 className="text-3xl font-black md:text-5xl lg:text-6xl">
@@ -23,7 +23,7 @@ export default function Home() {
       <ColArqScene />
       <EarlyDays />
 
-      <div className="flex h-screen items-center">
+      <div className="flex h-[70vh] items-center lg:h-screen">
         <span className="text-4xl font-black text-violet-800 md:text-5xl lg:text-6xl">
           {"</wrapper>"}
         </span>
