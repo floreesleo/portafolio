@@ -3,7 +3,7 @@ import { Reveal } from "@/components/motion";
 export default function CAScene() {
   return (
     <div className="flex flex-col items-start justify-center space-y-8">
-      <div className="flex h-screen items-center">
+      <div className="flex h-[70vh] items-center lg:h-screen">
         <Reveal>
           <h3 className="text-2xl font-bold md:text-3xl lg:text-5xl">
             Colegio de arquitectos(<span className="text-violet-800">2023</span>
@@ -12,7 +12,7 @@ export default function CAScene() {
         </Reveal>
       </div>
 
-      <div className="flex h-screen flex-col items-center space-y-3 pr-8 md:pr-16 lg:space-y-0 lg:pr-32">
+      <div className="flex h-[50vh] flex-col items-center space-y-3 pr-8 md:pr-16 lg:h-screen lg:space-y-0 lg:pr-32">
         <Reveal>
           <h4 className="text-xl font-bold md:text-2xl lg:text-4xl">
             In my university internship, I was the{" "}
@@ -28,7 +28,7 @@ export default function CAScene() {
         </Reveal>
       </div>
 
-      <div className="h-screen items-center space-y-2">
+      <div className="h-[50vh] items-center space-y-2 lg:h-screen">
         <Reveal>
           <p className="text-base md:text-xl lg:text-2xl">
             I develope tools for managing private documents,
