@@ -20,13 +20,24 @@ export default function ButtonNav() {
   return (
     <>
       <div className="block md:hidden">
-        <EllipsisVertical
-          onClick={() => setToggleNav(true)}
-          size={28}
-          absoluteStrokeWidth={false}
-          strokeWidth={2}
-          className="cursor-pointer text-white"
-        />
+        <AnimatePresence>
+          {!toggleNav && (
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.3 }}
+            >
+              <EllipsisVertical
+                onClick={() => setToggleNav(true)}
+                size={28}
+                absoluteStrokeWidth={false}
+                strokeWidth={2}
+                className="cursor-pointer text-white"
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
 
       <AnimatePresence>
@@ -37,7 +48,7 @@ export default function ButtonNav() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 50 }}
             transition={{ duration: 0.3 }}
-            className="absolute right-4 top-1 flex h-screen w-full flex-col items-end bg-custom-dark/55 p-4 backdrop-blur-md"
+            className="absolute -right-0 -top-3 flex h-screen w-full flex-col items-end bg-custom-dark/90 p-4"
           >
             <ul className="flex flex-col items-end justify-end space-y-8 text-2xl font-semibold">
               <li>
