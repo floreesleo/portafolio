@@ -1,3 +1,5 @@
 import ButtonNav from "./ButtonNav";
+import ScrollProgressBar from "./ScrollProgressBar";
+import AnimatedVerticalLine from "./AnimatedVerticalLine";
 
-export { ButtonNav };
+export { ButtonNav, ScrollProgressBar, AnimatedVerticalLine };
