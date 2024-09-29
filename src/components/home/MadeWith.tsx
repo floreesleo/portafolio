@@ -14,13 +14,17 @@ export default function MadeWith() {
           <ul>
             <li>Next.JS</li>
             <li>Tailwind CSS</li>
+            <li>Framer Motion</li>
+            <li>Figma</li>
           </ul>
         </div>
         <div className="space-y-5">
           <span>{"~"}</span>
 
           <ul>
-            <li>+3 playlists</li>
+            <li>+24 cups of coffee</li>
+            <li>2 easter eggs</li>
+            <li>Nsqk</li>
           </ul>
         </div>
         <div className="space-y-5">
@@ -55,61 +59,47 @@ export default function MadeWith() {
             </li>
             <li className="transition-colors duration-500 hover:text-white">
               <a
-                href="https://open.spotify.com/intl-es/track/44XjoNvtwevktFKjvVe1vH?si=45d8806458d444db"
+                href="https://open.spotify.com/intl-es/track/5BwJIBeUgerlyYADTvRctX?si=aedc429c206f4ea7"
                 target="_blank"
               >
-                Andrea
+                BAD INTENCIONES
+              </a>
+            </li>
+            <li className="transition-colors duration-500 hover:text-white">
+              <a
+                href="https://open.spotify.com/intl-es/track/7yjSJCFHonG9hz1A8WHHbn?si=4695624c986b4942"
+                target="_blank"
+              >
+                BOBOMENSOTONTO
+              </a>
+            </li>
+            <li className="transition-colors duration-500 hover:text-white">
+              <a
+                href="https://open.spotify.com/intl-es/track/6EjBcoyPVn99cpRfoDiuRf?si=9f9ee1a8c139432b"
+                target="_blank"
+              >
+                Si En Tu Mente Estuve
+              </a>
+            </li>
+            <li className="transition-colors duration-500 hover:text-white">
+              <a
+                href="https://open.spotify.com/intl-es/track/6AebAAfoIjSRsARv6p05kS?si=f498e39fea944741"
+                target="_blank"
+              >
+                misa
+              </a>
+            </li>
+            <li className="transition-colors duration-500 hover:text-white">
+              <a
+                href="https://open.spotify.com/intl-es/track/09np8TCtg5O6yYsaxKJlJ0?si=8c72a2ac7183479e"
+                target="_blank"
+              >
+                Tarde o temprano
               </a>
             </li>
           </ul>
         </div>
       </div>
-
-      {/* <div className="grid grid-cols-4 gap-4 text-violet-800">
-        <ul>
-          <li>Next.JS</li>
-          <li>Tailwind CSS</li>
-        </ul>
-
-        <ul>
-          <li>+3 playlists</li>
-        </ul>
-
-        <ul className="space-y-2">
-          <li className="transition-colors duration-500 hover:text-white">
-            <a
-              href="https://open.spotify.com/intl-es/track/5DtnCKnQ8nmRX1JL8N90Ua?si=9e9890abd7c44af3"
-              target="_blank"
-            >
-              NADIE MÁS!
-            </a>
-          </li>
-          <li className="transition-colors duration-500 hover:text-white">
-            <a
-              href="https://open.spotify.com/intl-es/track/5SuMst3sQt8wf94iGoXXLw?si=a29afac5ffce40e5"
-              target="_blank"
-            >
-              LOVELANGUAGE
-            </a>
-          </li>
-          <li className="transition-colors duration-500 hover:text-white">
-            <a
-              href="https://open.spotify.com/intl-es/track/0DxSLqLCJAtYD8XqF1xdhU?si=f65ab866b2da4946"
-              target="_blank"
-            >
-              Moldes
-            </a>
-          </li>
-          <li className="transition-colors duration-500 hover:text-white">
-            <a
-              href="https://open.spotify.com/intl-es/track/44XjoNvtwevktFKjvVe1vH?si=45d8806458d444db"
-              target="_blank"
-            >
-              Andrea
-            </a>
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 }
