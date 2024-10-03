@@ -39,8 +39,8 @@ export default function MyDescription() {
             <div className="flex flex-row items-center justify-center space-x-2">
               <span>Download my</span>
               <a
-                href="/leonardo.azael.cv.pdf"
-                download="leonardo.azael.cv.pdf"
+                href="/flores.leonardo.cv.es.pdf"
+                download="flores.leonardo.cv.es.pdf"
                 className="flex cursor-pointer select-none items-center rounded-3xl bg-violet-800 px-5 py-1 text-black transition-colors duration-500 hover:bg-white"
               >
                 {/* revisar como hacer para que se descargue el pdf de mi cv */}
